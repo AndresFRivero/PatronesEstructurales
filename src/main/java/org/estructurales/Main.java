@@ -12,7 +12,7 @@ public class Main {
 
         // Crear libros con diferentes formatos y accesos
         BookProxy book1 = new BookProxy("Book Content 1", new TextFormat(), true);
-        BookProxy book2 = new BookProxy("Book Content 2", new AudioFormat(), true);
+        BookProxy book2 = new BookProxy("Book Content 2", new AudioFormat(), false);
         BookProxy book3 = new BookProxy("Book Content 3", new VideoFormat(), true);
 
         // Crear la jerarquía de categorías (Composite)
